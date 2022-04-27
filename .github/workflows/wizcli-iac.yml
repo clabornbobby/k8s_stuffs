@@ -30,4 +30,4 @@ jobs:
 
     - name: Run wiz-cli IaC scan
       run: |
-        ./wizcli iac scan --path $SCAN_PATH --policy "$POLICY"
+        ./wizcli iac scan --path $SCAN_PATH --policy "$POLICY" --policy david-iac --policy secrets
